@@ -120,6 +120,30 @@ In the overview window of the Lambda function, copy and paste the code below int
 
 ![image alt](https://github.com/Tatenda-Prince/Serverless-with-API-Gateway-Lambda-and-SQS/blob/584e793e1a0c8fd44fca7c7efc686b28ab7ec13c/Imagess/Screenshot%202024-12-22%20124043.png)
 
+Once again, let’s talk about what is happening in this Lambda function.
+
+The code imports the necessary modules, “json” for encoding the response message, “boto3” for accessing the SQS service and “datetime” for getting the current date and time.
+
+The current date and time is obtained using “datetime.now()” and is saved to the variable “current_date_time”.
+
+An SQS resource object is created using the “boto3.resource()” method, with the specified region name.
+
+In the “lambda_handler” function, the SQS queue named “rextech_queue” is obtained using “sqs.get_queue_by_name()”.
+
+The current date and time is obtained from the “current_date_time” variable, then it is formatted to a string type using the “strftime()” method and is saved to the “date_time” variable.
+
+A custom message is created by concatenating a string with the current date and time which is then saved to the “message” variable.
+
+The “send_message()” method is used to send the “message” to the “queue”.
+
+Lastly, the function returns a response with a status code of “200” and the message body, which is a JSON-encoded string of the original message.
+
+Next, click “Deploy” to deploy the function’s code to the Lambda service, then click “Test” to test out the function based on a test case.
+
+![image alt]()
+
+
+
 
 
 
