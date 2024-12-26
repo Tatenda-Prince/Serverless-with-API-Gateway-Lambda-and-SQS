@@ -102,7 +102,18 @@ Next, type “SQS” in the search box and hit enter. Select the “AmazonSQSFul
 
 Note — For demonstration purposes we will be use the full access role, however, we should always strive to practice the principle of least privilege, granting only the minimum required permissions needed.
 
+
+![image alt](https://github.com/Tatenda-Prince/Serverless-with-API-Gateway-Lambda-and-SQS/blob/57952aedfbe93fda9717852ce93c57d1a48b124a/Imagess/Screenshot%202024-12-22%20123536.png)
+
+You can now verify that the SQS IAM policy is attached to the Lambda function.
+
 ![image alt]()
+
+
+Now that the Lambda function has been created and assigned the necessary permissions, we can proceed to Step 3 — Modifying the Lambda function to send a message to the SQS queue.
+
+
+
 
 
 
