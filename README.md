@@ -168,7 +168,7 @@ Select “API Gateway” from the drop down options, select “Create a new API�
 
 Give your API a name, then click “Add”.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Serverless-with-API-Gateway-Lambda-and-SQS/blob/8a3b2d2aaf479081458a71744d86ab638e3a4f75/Imagess/Screenshot%202024-12-22%20124820.png)
 
 
 You can now verify that the API Gateway is a valid trigger to the Lambda function.
