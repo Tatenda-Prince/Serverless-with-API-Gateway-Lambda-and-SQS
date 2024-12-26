@@ -182,7 +182,7 @@ Follow the previous instructions to add a new IAM role, then search for “API G
 
 Note — For demonstration purposes, we will use the full access role, however, we should always strive to practice the principle of least privilege, granting only the minimum required permission needed.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Serverless-with-API-Gateway-Lambda-and-SQS/blob/d109024f75dd5a32e4f3c9cedeedbb0aaf92bdec/Imagess/Screenshot%202024-12-22%20125002.png)
 
 Now verify that the API Gateway IAM policy is attached to your Lambda function.
 
