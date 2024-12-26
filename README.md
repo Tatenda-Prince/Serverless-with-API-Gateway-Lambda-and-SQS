@@ -140,7 +140,15 @@ Lastly, the function returns a response with a status code of “200” and the 
 
 Next, click “Deploy” to deploy the function’s code to the Lambda service, then click “Test” to test out the function based on a test case.
 
+![image alt](https://github.com/Tatenda-Prince/Serverless-with-API-Gateway-Lambda-and-SQS/blob/fb34def8c4722940fee9c940ff1a0db597253d70/Imagess/Screenshot%202024-12-22%20124510.png)
+
+For “Test event action”, select “Create a new event”, then name the event. For “Template”, select “apigateway-aws-proxy”
+
+Click “Save” to save the test event.
+
 ![image alt]()
+
+
 
 
 
