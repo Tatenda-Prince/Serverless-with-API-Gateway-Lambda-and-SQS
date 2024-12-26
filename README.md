@@ -58,6 +58,8 @@ These are the steps we will be aiming to accomplish
 
 We will use the Boto3 Python library to create a script to automate the creation of a Standard SQS Queue. The source code is displayed below and can also be viewed or cloned from my GitHub.
 
+![image alt]()
+
 
 Let’s talk about what is happening in this script.
 
@@ -107,10 +109,18 @@ Note — For demonstration purposes we will be use the full access role, however
 
 You can now verify that the SQS IAM policy is attached to the Lambda function.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Serverless-with-API-Gateway-Lambda-and-SQS/blob/76bd18aee9a0b5a7de5dc1c89b8317c50ec8311f/Imagess/Screenshot%202024-12-22%20123628.png)
 
 
 Now that the Lambda function has been created and assigned the necessary permissions, we can proceed to Step 3 — Modifying the Lambda function to send a message to the SQS queue.
+
+# Step 3: Modify the Lambda to send a message to the SQS queue.
+
+In the overview window of the Lambda function, copy and paste the code below into the code tab. You can also view it or clone it from my GitHub repo.
+
+![image alt]()
+
+
 
 
 
