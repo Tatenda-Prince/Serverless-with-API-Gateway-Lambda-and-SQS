@@ -186,9 +186,27 @@ Note — For demonstration purposes, we will use the full access role, however, 
 
 Now verify that the API Gateway IAM policy is attached to your Lambda function.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Serverless-with-API-Gateway-Lambda-and-SQS/blob/d817b7305bf8d6f14b3594c02e472528732cdb06/Imagess/Screenshot%202024-12-22%20125033.png)
 
 Now that we’ve create a new API and added it as a trigger to our Lambda function, we can now proceed to Step 5— Testing the trigger to verify the message was sent.
+
+
+# Step 5: Test the trigger to verify Lambda successfully sends message to SQS queue
+
+Click on the “Configuration” tab of your Lambda function, select “Triggers”, then click on the “API endpoint”.
+
+![images alt]()
+
+A webpage should open with the message of the “Response” body when the function was triggered by the API endpoint.
+
+Verify that it is the correct message with the current date and time.
+
+
+![image alt]()
+
+
+
+
 
 
 
