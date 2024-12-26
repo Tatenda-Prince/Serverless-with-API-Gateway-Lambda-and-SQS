@@ -82,7 +82,7 @@ Navigate to the Lambda service in the AWS Management Console and click “Create
 Select “Author from scratch”, name the function, then choose Python 3.7 or greater Runtime. Leave the rest of the settings at default and click “Create function”.
 
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Serverless-with-API-Gateway-Lambda-and-SQS/blob/a7b224159fa41aed456c3cb9a7a8410f0cbd7912/Imagess/Screenshot%202024-12-22%20123337.png)
 
 
 You will then change the default execution role and use an exiting role to give the Lambda function adequate permissions to interact with the SQS service.
