@@ -90,7 +90,7 @@ You will then change the default execution role and use an exiting role to give 
 To accomplish this, select the “Configuration” tab in your Lambda function’s dashboard, click “Permissions”, then click the current “Role name”.
 
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Serverless-with-API-Gateway-Lambda-and-SQS/blob/d0419f64d66f4f9745a95b31432b539aa4499ab1/Imagess/Screenshot%202024-12-26%20135903.png)
 
 A new window should open up. In that new window, select “Add policies”.
 
