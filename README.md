@@ -71,7 +71,40 @@ Now that you understand the script, proceed by running it in your local environm
 
 If you navigate to your SQS services, you should now be able to see your newly created SQS queue.
 
+![image alt](https://github.com/Tatenda-Prince/Serverless-with-API-Gateway-Lambda-and-SQS/blob/73e7c7f2461aac428c2758f28cb452aedecf225c/Imagess/Screenshot%202024-12-22%20122354.png)
+
+Now that the SQS queue has been created, we can proceed to Step 2— Creating the Lambda function.
+
+# Step 2: Create a Lambda function to send a message to SQS queue
+
+Navigate to the Lambda service in the AWS Management Console and click “Create Function”.
+
+Select “Author from scratch”, name the function, then choose Python 3.7 or greater Runtime. Leave the rest of the settings at default and click “Create function”.
+
+
 ![image alt]()
+
+
+You will then change the default execution role and use an exiting role to give the Lambda function adequate permissions to interact with the SQS service.
+
+To accomplish this, select the “Configuration” tab in your Lambda function’s dashboard, click “Permissions”, then click the current “Role name”.
+
+
+![image alt]()
+
+A new window should open up. In that new window, select “Add policies”.
+
+
+![image alt]()
+
+
+Next, type “SQS” in the search box and hit enter. Select the “AmazonSQSFullAccess” role, then click “Add permissions”.
+
+Note — For demonstration purposes we will be use the full access role, however, we should always strive to practice the principle of least privilege, granting only the minimum required permissions needed.
+
+
+
+
 
 
 
