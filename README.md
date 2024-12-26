@@ -161,7 +161,7 @@ Now that we’ve set up, created and tested our Lambda function successfully, we
 
 Click the “Add trigger” button in your “Function overview”.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Serverless-with-API-Gateway-Lambda-and-SQS/blob/edf4c16a6d79c51adfb5e863599d86b33dfc7042/Imagess/Screenshot%202024-12-22%20124724.png)
 
 
 Select “API Gateway” from the drop down options, select “Create a new API”, then select “HTTP API” for “API type”.
