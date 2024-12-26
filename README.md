@@ -202,7 +202,33 @@ A webpage should open with the message of the “Response” body when the funct
 Verify that it is the correct message with the current date and time.
 
 
+![image alt](https://github.com/Tatenda-Prince/Serverless-with-API-Gateway-Lambda-and-SQS/blob/2e019562e99d6f6d6917c962556801226b0f486c/Imagess/Screenshot%202024-12-22%20125307.png)
+
+Head to SQS queue previously created, then click “Send and receive messages”.
+
 ![image alt]()
+
+
+Click on “Poll for messages” on the right of the “Receive message” pane. Verify that you are able to view the message that was sent to the SQS queue when the Lambda function was triggered.
+
+![image alt]()
+
+
+Click on the message, then verify that the body of the message shows the current date and time. The message should match the message seen when you clicked the API endpoint.
+
+
+![image alt]()
+
+
+
+# Congratulations!
+If you were able to follow the steps correctly, you’ve just successfully created a AWS Lambda function that sends a message to Amazon SQS queue, which is triggered from an API using Amazon API Gateway!
+
+
+
+
+
+
 
 
 
