@@ -146,7 +146,15 @@ For “Test event action”, select “Create a new event”, then name the even
 
 Click “Save” to save the test event.
 
+![image alt](https://github.com/Tatenda-Prince/Serverless-with-API-Gateway-Lambda-and-SQS/blob/88035f389934e61ceb68f710b01779d2378e0009/Imagess/Screenshot%202024-12-22%20124601.png)
+
+We can now test the function by clicking ‘Test”. A response with the status code “200” and body with the message sent to SQS should be displayed in the “Execution results” tab, along with other details from the function execution.
+
+
 ![image alt]()
+
+
+Now that we’ve set up, created and tested our Lambda function successfully, we can now proceed to Step 4— Creating an API gateway HTTP API type to trigger the Lambda function.
 
 
 
