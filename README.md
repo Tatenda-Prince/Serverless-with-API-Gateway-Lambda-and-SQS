@@ -211,7 +211,7 @@ Head to SQS queue previously created, then click “Send and receive messages”
 
 Click on “Poll for messages” on the right of the “Receive message” pane. Verify that you are able to view the message that was sent to the SQS queue when the Lambda function was triggered.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Serverless-with-API-Gateway-Lambda-and-SQS/blob/9165c912ca24765ff8002bf74ca7909b62638360/Imagess/Screenshot%202024-12-22%20125439.png)
 
 
 Click on the message, then verify that the body of the message shows the current date and time. The message should match the message seen when you clicked the API endpoint.
