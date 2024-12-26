@@ -151,10 +151,47 @@ Click “Save” to save the test event.
 We can now test the function by clicking ‘Test”. A response with the status code “200” and body with the message sent to SQS should be displayed in the “Execution results” tab, along with other details from the function execution.
 
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Serverless-with-API-Gateway-Lambda-and-SQS/blob/faf8f58f4735c2eae39552470d7ce6ddd1e978d4/Imagess/Screenshot%202024-12-22%20124621.png)
 
 
 Now that we’ve set up, created and tested our Lambda function successfully, we can now proceed to Step 4— Creating an API gateway HTTP API type to trigger the Lambda function.
+
+
+# Step 4: Create an HTTP API type and add as a trigger
+
+Click the “Add trigger” button in your “Function overview”.
+
+![image alt]()
+
+
+Select “API Gateway” from the drop down options, select “Create a new API”, then select “HTTP API” for “API type”.
+
+Give your API a name, then click “Add”.
+
+![image alt]()
+
+
+You can now verify that the API Gateway is a valid trigger to the Lambda function.
+
+![image alt]()
+
+
+We also need to add another role to give our Lambda function the permissions to interact with the newly created API.
+
+Follow the previous instructions to add a new IAM role, then search for “API Gateway” in the search box. Select “AmazonAPIGatewayAdministrator”, then click “Add permissions”.
+
+Note — For demonstration purposes, we will use the full access role, however, we should always strive to practice the principle of least privilege, granting only the minimum required permission needed.
+
+![image alt]()
+
+Now verify that the API Gateway IAM policy is attached to your Lambda function.
+
+![image alt]()
+
+Now that we’ve create a new API and added it as a trigger to our Lambda function, we can now proceed to Step 5— Testing the trigger to verify the message was sent.
+
+
+
 
 
 
