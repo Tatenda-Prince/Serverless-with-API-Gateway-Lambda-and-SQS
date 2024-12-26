@@ -95,12 +95,16 @@ To accomplish this, select the “Configuration” tab in your Lambda function�
 A new window should open up. In that new window, select “Add policies”.
 
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Serverless-with-API-Gateway-Lambda-and-SQS/blob/4d80226c3190c73d9e568d1a85b43e8d69dff3f7/Imagess/Screenshot%202024-12-22%20123505.png)
 
 
 Next, type “SQS” in the search box and hit enter. Select the “AmazonSQSFullAccess” role, then click “Add permissions”.
 
 Note — For demonstration purposes we will be use the full access role, however, we should always strive to practice the principle of least privilege, granting only the minimum required permissions needed.
+
+![image alt]()
+
+
 
 
 
