@@ -58,7 +58,7 @@ These are the steps we will be aiming to accomplish
 
 We will use the Boto3 Python library to create a script to automate the creation of a Standard SQS Queue. The source code is displayed below and can also be viewed or cloned from my GitHub.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Serverless-with-API-Gateway-Lambda-and-SQS/blob/71f6ff4574ce21bc963e7b5c3c31e1a80675583f/Imagess/Screenshot%202024-12-22%20122835.png)
 
 
 Let’s talk about what is happening in this script.
