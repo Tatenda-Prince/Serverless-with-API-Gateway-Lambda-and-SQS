@@ -217,7 +217,7 @@ Click on “Poll for messages” on the right of the “Receive message” pane.
 Click on the message, then verify that the body of the message shows the current date and time. The message should match the message seen when you clicked the API endpoint.
 
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Serverless-with-API-Gateway-Lambda-and-SQS/blob/21ea495ebd841305b62f32b6cbe15887eb7c72d4/Imagess/Screenshot%202024-12-22%20125518.png)
 
 
 
