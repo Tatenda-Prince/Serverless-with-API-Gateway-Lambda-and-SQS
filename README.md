@@ -118,7 +118,7 @@ Now that the Lambda function has been created and assigned the necessary permiss
 
 In the overview window of the Lambda function, copy and paste the code below into the code tab. You can also view it or clone it from my GitHub repo.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Serverless-with-API-Gateway-Lambda-and-SQS/blob/584e793e1a0c8fd44fca7c7efc686b28ab7ec13c/Imagess/Screenshot%202024-12-22%20124043.png)
 
 
 
