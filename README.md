@@ -206,7 +206,7 @@ Verify that it is the correct message with the current date and time.
 
 Head to SQS queue previously created, then click “Send and receive messages”.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Serverless-with-API-Gateway-Lambda-and-SQS/blob/2ee58fcd252ff55d62e9113912d47625d26122af/Imagess/Screenshot%202024-12-22%20125420.png)
 
 
 Click on “Poll for messages” on the right of the “Receive message” pane. Verify that you are able to view the message that was sent to the SQS queue when the Lambda function was triggered.
