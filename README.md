@@ -220,7 +220,6 @@ Click on the message, then verify that the body of the message shows the current
 ![image alt](https://github.com/Tatenda-Prince/Serverless-with-API-Gateway-Lambda-and-SQS/blob/21ea495ebd841305b62f32b6cbe15887eb7c72d4/Imagess/Screenshot%202024-12-22%20125518.png)
 
 
-
 # Congratulations!
 If you were able to follow the steps correctly, you’ve just successfully created a AWS Lambda function that sends a message to Amazon SQS queue, which is triggered from an API using Amazon API Gateway!
 
