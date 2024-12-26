@@ -195,7 +195,7 @@ Now that we’ve create a new API and added it as a trigger to our Lambda functi
 
 Click on the “Configuration” tab of your Lambda function, select “Triggers”, then click on the “API endpoint”.
 
-![images alt]()
+![images alt](https://github.com/Tatenda-Prince/Serverless-with-API-Gateway-Lambda-and-SQS/blob/a875d6d7759d2d5b2d6daa861dd97215ab73a640/Imagess/Screenshot%202024-12-22%20125228.png)
 
 A webpage should open with the message of the “Response” body when the function was triggered by the API endpoint.
 
