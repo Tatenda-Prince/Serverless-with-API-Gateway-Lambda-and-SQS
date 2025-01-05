@@ -143,7 +143,29 @@ Now that the Lambda function has been created and assigned the necessary permiss
 
 In the overview window of the Lambda function, copy and paste the code below into the code tab. You can also view it or clone it from my GitHub repo.
 
-![image alt](https://github.com/Tatenda-Prince/Serverless-with-API-Gateway-Lambda-and-SQS/blob/68780c300d64a61784ef821ea64cb2f85038ef31/Imagess/Screenshot%202025-01-03%20160646.png)
+``` python
+import json
+import boto3
+from datetime import datetime
+
+current_date_time = datetime.now()
+sqs = boto3.resource('sqs', region_name='us-east-1')
+
+def lambda_handler(event, content):
+    
+    queue = sqs.get_queue_by_name(QueueName='myTatenda_queue') #get the queue
+
+    date_time = current_date_time.strftime("%d/%m/%Y %H:%M:%S") #get the current date and time
+    message = ("The current date and time at point of trigger was " + str(date_time) + ".") #concatonate strings to create a custom message
+    
+    
+    responce = queue.send_message(MessageBody = message) #send message to queue
+
+    return {
+        "statusCode": 200,
+        'body': json.dumps(message)
+    }
+```
 
 Once again, let’s talk about what is happening in this Lambda function.
 
